@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prediction Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        h1 { color: #27ae60; }
+        p { font-size: 1.1rem; margin: 8px 0; }
+        h2 { margin-top: 20px; color: #e74c3c; }
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: white;
+            background-color: #3498db;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+        a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <p><strong>Random Forest Prediction:</strong> {{ rf_pred }}</p>
+    <p><strong>Naive Bayes Prediction:</strong> {{ nb_pred }}</p>
+    <p><strong>SVM Prediction:</strong> {{ svm_pred }}</p>
+    <h2>Final Combined Prediction: {{ final_pred }}</h2>
+
+    <a href="/">Predict Again</a>
+</body>
+</html>

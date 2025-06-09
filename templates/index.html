@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Disease Prediction System</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        h1 { color: #2c3e50; }
+        form { max-width: 400px; }
+        label { display: block; margin: 5px 0; }
+        input[type="submit"] {
+            margin-top: 15px;
+            padding: 8px 16px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Disease Prediction System</h1>
+    <form method="POST" action="/predict">
+        <h3>Select Symptoms:</h3>
+        {% for symptom in symptoms %}
+            <label>
+                <input type="checkbox" name="symptoms" value="{{ symptom }}">
+                {{ symptom }}
+            </label>
+        {% endfor %}
+        <input type="submit" value="Predict Disease">
+    </form>
+</body>
+</html>
