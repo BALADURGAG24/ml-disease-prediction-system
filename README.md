@@ -10,7 +10,7 @@ The system takes **patient symptoms** as input and predicts the most likely dise
 ``` 
 DISEASE-PREDICTION-ML/
 │
-├── .venv/ # Virtual environment
+├── .venv/ # Virtual environment 
 ├── data/ # Raw and cleaned datasets
 │ ├── clean disease dataset.csv
 │ └── improved_disease_dataset.csv
