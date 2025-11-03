@@ -4,7 +4,7 @@ This project is a **Disease Prediction System** built using **Machine Learning**
 The system takes **patient symptoms** as input and predicts the most likely disease.
 
 ---
-
+ 
 ## 🗂 Project Structure
 
 ``` 
