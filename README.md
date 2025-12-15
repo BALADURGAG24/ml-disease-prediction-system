@@ -5,7 +5,7 @@ The system takes **patient symptoms** as input and predicts the most likely dise
 
 ---
  
-## 🗂 Project Structure
+## 🗂 Project Structure 
 
 ```  
 DISEASE-PREDICTION-ML/    
