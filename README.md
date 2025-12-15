@@ -8,7 +8,7 @@ The system takes **patient symptoms** as input and predicts the most likely dise
 ## 🗂 Project Structure 
 
 ```  
-DISEASE-PREDICTION-ML/    
+DISEASE-PREDICTION-ML/     
 │    
 ├── .venv/ # Virtual environment   
 ├── data/ # Raw and cleaned datasets
