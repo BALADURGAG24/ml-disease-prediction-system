@@ -8,30 +8,30 @@ The system takes **patient symptoms** as input and predicts the most likely dise
 ## 🗂 Project Structure 
 
 ```  
-DISEASE-PREDICTION-ML/     
-│    
-├── .venv/ # Virtual environment    
-├── data/ # Raw and cleaned datasets
-│ ├── clean disease dataset.csv
-│ └── improved_disease_dataset.csv
-├── models/ # Saved ML models and encoder
-│ ├── label_encoder.pkl
-│ ├── Igbm_model.pkl
-│ ├── nb_model.pkl
-│ ├── rf_model.pkl
-│ ├── svm_model.pkl
-│ ├── symptoms_list.pkl
-│ └── xgb_model.pkl
-├── src/ # ML scripts
-│ ├── predict.py # Script to test prediction
-│ └── train_model.py # Script to train and save models
-├── templates/ # Flask HTML templates
-│ ├── index.html
-│ └── result.html
-├── app.py # Flask app entry point
-├── disease_dataset_generator.py # Dataset preprocessing (optional)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+Directory structure:
+└── baladurgag24-ml-disease-prediction-system/
+    ├── README.md
+    ├── app.py
+    ├── disease_dataset_generator.py
+    ├── LICENSE
+    ├── requirements.txt
+    ├── data/
+    │   ├── clean_disease_dataset.csv
+    │   └── improved_disease_dataset.csv
+    ├── models/
+    │   ├── label_encoder.pkl
+    │   ├── lgbm_model.pkl
+    │   ├── nb_model.pkl
+    │   ├── rf_model.pkl
+    │   ├── svm_model.pkl
+    │   ├── symptoms_list.pkl
+    │   └── xgb_model.pkl
+    ├── src/
+    │   ├── predict.py
+    │   └── train_model.py
+    └── templates/
+        ├── index.html
+        └── result.html
 ```
 
 ---
